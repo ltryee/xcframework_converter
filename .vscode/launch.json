@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug arm64-to-sim (arm64-to-sim)",
+            "program": "${workspaceFolder:xcframework_converter}/arm64-to-sim/.build/debug/arm64-to-sim",
+            "args": [],
+            "cwd": "${workspaceFolder:xcframework_converter}/arm64-to-sim",
+            "preLaunchTask": "swift: Build Debug arm64-to-sim (arm64-to-sim)"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Release arm64-to-sim (arm64-to-sim)",
+            "program": "${workspaceFolder:xcframework_converter}/arm64-to-sim/.build/release/arm64-to-sim",
+            "args": [],
+            "cwd": "${workspaceFolder:xcframework_converter}/arm64-to-sim",
+            "preLaunchTask": "swift: Build Release arm64-to-sim (arm64-to-sim)"
+        }
+    ]
+}
